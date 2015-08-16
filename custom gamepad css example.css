@@ -12,6 +12,9 @@ basic knowledge on how CSS works. I'd also suggest uploading
 your custom CSS to GitHub's gist as you can easily get the
 direct link for the file by copying the link address on the
 "Raw" button at the top right of the code.
+NOTE: If you're using gist, MAKE SURE TO NAME YOUR CSS FILE!
+It doesn't matter what you call it, so long as it ends in .css
+else the site won't read it and think it's just a plain text.
 
 Each CSS entry must be preceded by '.custom' since that's the 
 hardcoded class for a custom style. It doesn't make sense to 
