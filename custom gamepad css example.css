@@ -39,7 +39,7 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*This class defines the base attributes of the skin*/
 .controller.custom{
     /* The background image is basically the base for the controller's skin. The 
-    PS3 controller's skin can be found at http://mrmcpowned.com/gamepad/testing/ps3-assets/base.png
+    PS3 controller's skin can be found at http://mrmcpowned.com/gamepad/ps3-assets/base.png
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
