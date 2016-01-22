@@ -46,9 +46,6 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
     background: url(ps3-assets/base.png); 
     height: 558px;
     width: 784px;
-    margin-left: -392px; /* This is half of the skin's width to help center it on the screen */ 
-    margin-top: -259px; /* Normally half the skin's height, but may be a little more or less 
-    to account for the bar on the top of the page */
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(ps3-assets/base-disconnect.png);
@@ -275,13 +272,6 @@ the CSS inline. */
 .custom .face.pressed{
     margin-top: 5px;
     background-position-y: 52px;
-}
-/* NOTE: You NEED to set this to exactly half the height of what is listed 
-for '.controller.custom' so when your skin is activated via player selection
-parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
-centered on screen. */
-.custom.half{
-    margin-top: -279px;
 }
 /* The following entries are empty because I haven't used them yet, but they
 exist for the purpose of displaying a fightstick. Since fightsticks have 
